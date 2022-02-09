@@ -37,20 +37,32 @@ VALUES (NULL, "Ciências","Ciência refere-se a qualquer conhecimento ou prátic
 /* INSERINDO DADOS NA TABELA PRODUTO */
 
 INSERT INTO produto
-VALUES (NULL, "O diário de Anne Frank (edição oficial)", "Livro Biográfico O diário de Anne Frank (edição oficial) - Anne Frank lorem impsu", 26.2, "6", "https://images-na.ssl-images-amazon.com/images/I/91RMqWB-CTL._AC_UL604_SR604,400_.jpg", 3);
+VALUES (NULL, "O diário de Anne Frank (edição oficial)", "Livro Biográfico O diário de Anne Frank (edição oficial) - Anne Frank lorem impsu", 26.2, 6, "https://images-na.ssl-images-amazon.com/images/I/91RMqWB-CTL._AC_UL604_SR604,400_.jpg", 3);
 INSERT INTO produto
-VALUES (NULL, "Vivendo como um guerreiro", "Livro Biográfico Vivendo como um guerreiro - Whindersson Nunes lorem impsu", 24, "23", "https://images-na.ssl-images-amazon.com/images/I/81RBiq9g3fL._AC_UL604_SR604,400_.jpg", 3);
+VALUES (NULL, "Vivendo como um guerreiro", "Livro Biográfico Vivendo como um guerreiro - Whindersson Nunes lorem impsu", 24, 23, "https://images-na.ssl-images-amazon.com/images/I/81RBiq9g3fL._AC_UL604_SR604,400_.jpg", 3);
 INSERT INTO produto
-VALUES (NULL, "Meditações: Edição com postais + marcador", "Livro Biográfico Meditações: Edição com postais + marcador - Marco Aurélio lorem impsu", 20.99, "6", "https://images-na.ssl-images-amazon.com/images/I/612B0id4gNL._AC_UL604_SR604,400_.jpg", 3);
+VALUES (NULL, "Meditações: Edição com postais + marcador", "Livro Biográfico Meditações: Edição com postais + marcador - Marco Aurélio lorem impsu", 20.99, 6, "https://images-na.ssl-images-amazon.com/images/I/612B0id4gNL._AC_UL604_SR604,400_.jpg", 3);
 INSERT INTO produto
-VALUES (NULL, "A ciranda das mulheres sábias", "Livro Biográfico A ciranda das mulheres sábias - Clarissa Pinkola Estés lorem impsu", 13.9, "12", "https://images-na.ssl-images-amazon.com/images/I/71V7JPPyZ0L._AC_UL604_SR604,400_.jpg", 3);
+VALUES (NULL, "A ciranda das mulheres sábias", "Livro Biográfico A ciranda das mulheres sábias - Clarissa Pinkola Estés lorem impsu", 13.9, 12, "https://images-na.ssl-images-amazon.com/images/I/71V7JPPyZ0L._AC_UL604_SR604,400_.jpg", 3);
 INSERT INTO produto
-VALUES (NULL, "Lula, volume 1: Biografia", "Livro Biográfico Lula, volume 1: Biografia - Fernando Morais lorem impsu", 49.9, "3", "https://images-na.ssl-images-amazon.com/images/I/81Or2lwumkL._AC_UL604_SR604,400_.jpg", 3);
+VALUES (NULL, "Lula, volume 1: Biografia", "Livro Biográfico Lula, volume 1: Biografia - Fernando Morais lorem impsu", 49.9, 3, "https://images-na.ssl-images-amazon.com/images/I/81Or2lwumkL._AC_UL604_SR604,400_.jpg", 3);
 INSERT INTO produto
-VALUES (NULL, "A Arte da Guerra: Edição Especial", "Livro Biográfico A Arte da Guerra: Edição Especial - Sun Tzu lorem impsu", 26.95, "2", "https://images-na.ssl-images-amazon.com/images/I/71FoXd6rVCL._AC_UL604_SR604,400_.jpg", 3);
+VALUES (NULL, "A Arte da Guerra: Edição Especial", "Livro Biográfico A Arte da Guerra: Edição Especial - Sun Tzu lorem impsu", 26.95, 2, "https://images-na.ssl-images-amazon.com/images/I/71FoXd6rVCL._AC_UL604_SR604,400_.jpg", 3);
 INSERT INTO produto
-VALUES (NULL, "BTK Profile: Máscara da Maldade", "Livro Biográfico BTK Profile: Máscara da Maldade - Roy Wenzl lorem impsu", 44.9, "7", "https://images-na.ssl-images-amazon.com/images/I/31SZW3bfV0L._AC_UL604_SR604,400_.jpg", 3);
+VALUES (NULL, "BTK Profile: Máscara da Maldade", "Livro Biográfico BTK Profile: Máscara da Maldade - Roy Wenzl lorem impsu", 44.9, 7, "https://images-na.ssl-images-amazon.com/images/I/31SZW3bfV0L._AC_UL604_SR604,400_.jpg", 3);
 INSERT INTO produto
-VALUES (NULL, "O Contador de Histórias: Memórias...", "Livro Biográfico O Contador de Histórias: Memórias de Vida e Música - Dave Grohl lorem impsu", 55.12, "11", "https://images-na.ssl-images-amazon.com/images/I/51hNdMbHs9L._AC_UL604_SR604,400_.jpg", 3);
+VALUES (NULL, "O Contador de Histórias: Memórias...", "Livro Biográfico O Contador de Histórias: Memórias de Vida e Música - Dave Grohl lorem impsu", 55.12, 11, "https://images-na.ssl-images-amazon.com/images/I/51hNdMbHs9L._AC_UL604_SR604,400_.jpg", 3);
 INSERT INTO produto
-VALUES (NULL, "A PAIXÃO SEGUNDO G. H.", "Livro Biográfico A PAIXÃO SEGUNDO G. H. (EDIÇÃO COMEMORATIVA) - Clarice Lispector lorem impsu", 21, "20", "https://images-na.ssl-images-amazon.com/images/I/71rmK9DYSIL._AC_UL604_SR604,400_.jpg", 3);
+VALUES (NULL, "A PAIXÃO SEGUNDO G. H.", "Livro Biográfico A PAIXÃO SEGUNDO G. H. (EDIÇÃO COMEMORATIVA) - Clarice Lispector lorem impsu", 21, 20, "https://images-na.ssl-images-amazon.com/images/I/71rmK9DYSIL._AC_UL604_SR604,400_.jpg", 3);
+INSERT INTO produto
+VALUES (NULL, "O homem mais rico da Babilônia", "O homem mais rico da Babilônia", 13, 0, "https://images-na.ssl-images-amazon.com/images/I/81HKcvLn15L._AC_UL604_SR604,400_.jpg", 2);
+INSERT INTO produto
+VALUES (NULL, "Mente Blindada: 12 Simples...", "Mente Blindada: 12 Simples...", 1.99, 8, "https://images-na.ssl-images-amazon.com/images/I/8…sticker-v7,TopR4,400_.jpg", 2);
+INSERT INTO produto
+VALUES (NULL, "Mais esperto que o Diabo", "Mais esperto que o Diabo", 24.89, 10, "https://images-na.ssl-images-amazon.com/images/I/71c4clNHGYL._AC_UL604_SR604,400_.jpg", 2);
+INSERT INTO produto
+VALUES (NULL, "Talvez você deva conversar com alguém", "Talvez você deva conversar com alguém", 28.06, 32, "https://images-na.ssl-images-amazon.com/images/IR604,400_.jpg", 2);
+INSERT INTO produto
+VALUES (NULL, "12 regras para a vida: Um...", "12 regras para a vida: Um...", 34.4, 41, "https://images-na.ssl-images-amazon.com/images/I/51DSFiydE-L._AC_ULages/I/51DSFiydE-L._AC_UL604_SR604,400_.jpg", 2);
+INSERT INTO produto
+VALUES (NULL, "Mindset: A nova psicologia do sucesso", "Mindset: A nova psicologia do sucesso", 27.9, 2, "https://images-na.ssl-images-amazon.com/images/I/71Ils+Co9fL._AC_UL604_SR604,400_.jpg", 2);

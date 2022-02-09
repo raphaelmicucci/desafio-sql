@@ -1,4 +1,4 @@
-USE ecommerce2;
+USE ecommerce;
 
 CREATE TABLE cliente(
    id INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY, 
