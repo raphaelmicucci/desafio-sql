@@ -1,3 +1,5 @@
+USE ecommerce2;
+
 CREATE TABLE cliente(
    id INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY, 
    nome VARCHAR(100) NOT NULL, 
@@ -64,4 +66,3 @@ CREATE TABLE item_pedido(
     (pedido_numero) REFERENCES pedido(numero)
 );
 
-USE cliente;

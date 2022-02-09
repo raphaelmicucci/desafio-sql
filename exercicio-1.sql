@@ -1,50 +1,56 @@
-INSERT INTO cliente (id, nome, email, senha, cpf)
+/* INSERINDO DADOS NA TABELA CLIENTE */
+
+INSERT INTO cliente
 VALUES (NULL, "Edan Heaton", "danny@hotmail.com", "1234", "263.608.526-24");
-INSERT INTO cliente (id, nome, email, senha, cpf)
+INSERT INTO cliente
 VALUES (NULL, "Lilly-Rose Hewitt", "mhanoh@yahoo.com", "1234", "333.330.252-72");
-INSERT INTO cliente (id, nome, email, senha, cpf)
+INSERT INTO cliente
 VALUES (NULL, "Allen Lister", "mbswan@yahoo.com", "1234", "486.563.770-27");
-INSERT INTO cliente (id, nome, email, senha, cpf)
+INSERT INTO cliente
 VALUES (NULL, "Daniaal Duke", "moxfulder@att.net", "1234", "206.559.375-01");
-INSERT INTO cliente (id, nome, email, senha, cpf)
+INSERT INTO cliente
 VALUES (NULL, "Gracey Bone", "crypt@comcast.net", "1234", "331.043.714-07");
-INSERT INTO cliente (id, nome, email, senha, cpf)
+INSERT INTO cliente
 VALUES (NULL, "Margaux Spears", "pedwards@aol.com", "1234", "827.122.626-62");
-INSERT INTO cliente (id, nome, email, senha, cpf)
+INSERT INTO cliente
 VALUES (NULL, "Rudi Knox", "pavel@live.com", "1234", "328.354.333-09");
-INSERT INTO cliente (id, nome, email, senha, cpf)
+INSERT INTO cliente
 VALUES (NULL, "Allan Barnett", "sbmrjbr@outlook.com", "1234", "478.814.446-81");
-INSERT INTO cliente (id, nome, email, senha, cpf)
+INSERT INTO cliente
 VALUES (NULL, "Pio Ermete Neri", "kewley@live.com", "1234", "911.661.977-35");
-INSERT INTO cliente (id, nome, email, senha, cpf)
+INSERT INTO cliente
 VALUES (NULL, "Inácio Marco Abbadelli", "pakaste@hotmail.com", "1234", "273.776.527-72");
-INSERT INTO cliente (id, nome, email, senha, cpf)
-VALUES (NULL, "Rossana Valente Nespoli", "flakeg@att.net", "1234", "727.860.194-00");
-INSERT INTO cliente (id, nome, email, senha, cpf)
-VALUES (NULL, "Amor Giulia Belo", "flavell@mac.com", "1234", "552.683.377-18");
-INSERT INTO cliente (id, nome, email, senha, cpf)
-VALUES (NULL, "Tito Alexandrina Ardovini", "sumdumass@icloud.com", "1234", "517.195.172-15");
-INSERT INTO cliente (id, nome, email, senha, cpf)
-VALUES (NULL, "Kavita Hendrix", "bastian@gmail.com", "1234", "019.337.382-35");
-INSERT INTO cliente (id, nome, email, senha, cpf)
-VALUES (NULL, "Sumayya Horner", "yamla@yahoo.ca", "1234", "618.144.552-80");
-INSERT INTO cliente (id, nome, email, senha, cpf)
-VALUES (NULL, "Rianne Sparrow", "north@outlook.com", "1234", "294.359.755-42");
-INSERT INTO cliente (id, nome, email, senha, cpf)
-VALUES (NULL, "Henna Freeman", "gamma@att.net", "1234", "918.118.497-25");
-INSERT INTO cliente (id, nome, email, senha, cpf)
-VALUES (NULL, "Hester Hurst", "giafly@hotmail.com", "1234", "324.888.711-76");
-INSERT INTO cliente (id, nome, email, senha, cpf)
-VALUES (NULL, "Fallon May", "richard@icloud.com", "1234", "792.512.852-68");
-INSERT INTO cliente (id, nome, email, senha, cpf)
-VALUES (NULL, "Maiya Patterson", "geoffr@yahoo.com", "1234", "514.567.741-31");
-INSERT INTO cliente (id, nome, email, senha, cpf)
-VALUES (NULL, "Kian Wheatley", "hachi@msn.com", "1234", "726.177.688-21");
-INSERT INTO cliente (id, nome, email, senha, cpf)
-VALUES (NULL, "Tori Reeves", "sinclair@yahoo.ca", "1234", "816.929.595-57");
-INSERT INTO cliente (id, nome, email, senha, cpf)
-VALUES (NULL, "Lucy Bowen", "mirod@att.net", "1234", "183.562.194-50");
-INSERT INTO cliente (id, nome, email, senha, cpf)
-VALUES (NULL, "Gabrielius Alexander", "stern@comcast.net", "1234", "649.142.596-72");
-INSERT INTO cliente (id, nome, email, senha, cpf)
-VALUES (NULL, "Leighton Oconnor", "kimvette@gmail.com", "1234", "718.441.324-55");
+
+/* INSERINDO DADOS NA TABELA DEPARTAMENTO */
+
+INSERT INTO departamento 
+VALUES (NULL, "Ficção","Ficção é o termo usado para designar uma narrativa imaginária, irreal, ou para redefinir obras criadas a partir da imaginação. Obras ficcionais podem ser parcialmente baseadas em fatos, mas sempre contêm algum conteúdo imaginário.");
+INSERT INTO departamento 
+VALUES (NULL, "Autoajuda","O termo Autoajuda pode designar qualquer caso onde um indivíduo ou um grupo, como um grupo de apoio, procuram se aprimorar de forma econômica, espiritual, intelectual ou emocional.");
+INSERT INTO departamento 
+VALUES (NULL, "Biografia","Biografia é um gênero literário em que o autor narra a história da vida de uma pessoa ou de várias pessoas. De um modo geral as biografias contam a vida de alguém.");
+INSERT INTO departamento 
+VALUES (NULL, "História","História é a ciência que estuda o ser humano e sua ação no tempo e no espaço concomitantemente à análise de processos e eventos ocorridos no passado.");
+INSERT INTO departamento 
+VALUES (NULL, "Ciências","Ciência refere-se a qualquer conhecimento ou prática sistemáticos. Em sentido estrito, ciência refere-se ao sistema de adquirir conhecimento baseado no método científico bem como ao corpo organizado de conhecimento conseguido através de tais pesquisas. Este artigo foca o sentido mais estrito da palavra.");
+
+/* INSERINDO DADOS NA TABELA PRODUTO */
+
+INSERT INTO produto
+VALUES (NULL, "O diário de Anne Frank (edição oficial)", "Livro Biográfico O diário de Anne Frank (edição oficial) - Anne Frank lorem impsu", 26.2, "6", "https://images-na.ssl-images-amazon.com/images/I/91RMqWB-CTL._AC_UL604_SR604,400_.jpg", 3);
+INSERT INTO produto
+VALUES (NULL, "Vivendo como um guerreiro", "Livro Biográfico Vivendo como um guerreiro - Whindersson Nunes lorem impsu", 24, "23", "https://images-na.ssl-images-amazon.com/images/I/81RBiq9g3fL._AC_UL604_SR604,400_.jpg", 3);
+INSERT INTO produto
+VALUES (NULL, "Meditações: Edição com postais + marcador", "Livro Biográfico Meditações: Edição com postais + marcador - Marco Aurélio lorem impsu", 20.99, "6", "https://images-na.ssl-images-amazon.com/images/I/612B0id4gNL._AC_UL604_SR604,400_.jpg", 3);
+INSERT INTO produto
+VALUES (NULL, "A ciranda das mulheres sábias", "Livro Biográfico A ciranda das mulheres sábias - Clarissa Pinkola Estés lorem impsu", 13.9, "12", "https://images-na.ssl-images-amazon.com/images/I/71V7JPPyZ0L._AC_UL604_SR604,400_.jpg", 3);
+INSERT INTO produto
+VALUES (NULL, "Lula, volume 1: Biografia", "Livro Biográfico Lula, volume 1: Biografia - Fernando Morais lorem impsu", 49.9, "3", "https://images-na.ssl-images-amazon.com/images/I/81Or2lwumkL._AC_UL604_SR604,400_.jpg", 3);
+INSERT INTO produto
+VALUES (NULL, "A Arte da Guerra: Edição Especial", "Livro Biográfico A Arte da Guerra: Edição Especial - Sun Tzu lorem impsu", 26.95, "2", "https://images-na.ssl-images-amazon.com/images/I/71FoXd6rVCL._AC_UL604_SR604,400_.jpg", 3);
+INSERT INTO produto
+VALUES (NULL, "BTK Profile: Máscara da Maldade", "Livro Biográfico BTK Profile: Máscara da Maldade - Roy Wenzl lorem impsu", 44.9, "7", "https://images-na.ssl-images-amazon.com/images/I/31SZW3bfV0L._AC_UL604_SR604,400_.jpg", 3);
+INSERT INTO produto
+VALUES (NULL, "O Contador de Histórias: Memórias...", "Livro Biográfico O Contador de Histórias: Memórias de Vida e Música - Dave Grohl lorem impsu", 55.12, "11", "https://images-na.ssl-images-amazon.com/images/I/51hNdMbHs9L._AC_UL604_SR604,400_.jpg", 3);
+INSERT INTO produto
+VALUES (NULL, "A PAIXÃO SEGUNDO G. H.", "Livro Biográfico A PAIXÃO SEGUNDO G. H. (EDIÇÃO COMEMORATIVA) - Clarice Lispector lorem impsu", 21, "20", "https://images-na.ssl-images-amazon.com/images/I/71rmK9DYSIL._AC_UL604_SR604,400_.jpg", 3);
