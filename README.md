@@ -11,20 +11,38 @@
 - [ ] Inserir produtos (depende de departamentos)
 - [ ] Inserir item_pedidos (depende de pedidos e de produtos)
 
-Quantos clientes estão cadastrados na sua base?
+2. Quantos clientes estão cadastrados na sua base?
 
-Qual o produto mais caro?
+- [ ] Criar arquivo exercicio-2.sql
 
-Qual o produto mais barato?
+3. Qual o produto mais caro?
 
-Mostre todos os produtos com seus respectivos departamentos.
+- [ ] Criar arquivo exercicio-3.sql
+  
+4. Qual o produto mais barato?
 
-Quantos produtos há em cada departamento? Exiba o nome do departamento e a quantidade de produtos que há em cada um. (pense em SUM e GROUP BY)
+- [ ] Criar arquivo exercicio-4.sql
 
-Mostre os dados dos pedidos, incluindo nomes dos clientes e nomes dos produtos que foram vendidos.
+5. Mostre todos os produtos com seus respectivos departamentos.
 
-Mostre quantos pedidos foram feitos por mês no ano de 2022 (caso você tenha registros neste ano, senão escolha um ano que você tenha cadastrado - Novamente pense em COUNT e GROUP BY).
+- [ ] Criar arquivo exercicio-5.sql
+  
+6. Quantos produtos há em cada departamento? Exiba o nome do departamento e a quantidade de produtos que há em cada um. (pense em SUM e GROUP BY)
 
-Mostre quanto foi faturado por mês (leve em conta o valor total de cada pedido - novamente pense em GROUP BY e SUM).
+- [ ] Criar arquivo exercicio-6.sql
+ 
+7. Mostre os dados dos pedidos, incluindo nomes dos clientes e nomes dos produtos que foram vendidos.
 
-Mostre o valor total do estoque por departamento.
+- [ ] Criar arquivo exercicio-7.sql
+
+8. Mostre quantos pedidos foram feitos por mês no ano de 2022 (caso você tenha registros neste ano, senão escolha um ano que você tenha cadastrado - Novamente pense em COUNT e GROUP BY).
+
+- [ ] Criar arquivo exercicio-8.sql
+
+9. Mostre quanto foi faturado por mês (leve em conta o valor total de cada pedido - novamente pense em GROUP BY e SUM).
+    
+- [ ] Criar arquivo exercicio-9.sql
+
+10. Mostre o valor total do estoque por departamento.
+
+- [ ] Criar arquivo exercicio-10.sql
