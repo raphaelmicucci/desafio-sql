@@ -7,7 +7,7 @@
 - [x] Inserir clientes
 - [ ] Inserir endereços (depende de clientes)
 - [ ] Inserir pedidos (depende de clientes)
-- [ ] Inserir departamentos
+- [x] Inserir departamentos
 - [ ] Inserir produtos (depende de departamentos)
 - [ ] Inserir item_pedidos (depende de pedidos e de produtos)
 
