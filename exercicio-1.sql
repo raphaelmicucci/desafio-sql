@@ -88,3 +88,24 @@ INSERT INTO produto
 VALUES (NULL, "Ideias para adiar o fim do mundo", "Livro Ciências Ideias para adiar o fim do mundo (Nova edição) - Ailton Krenak lorem impsu", 16.9, 30, "https://images-na.ssl-images-amazon.com/images/I/71BnFkpryFL._AC_UL604_SR604,400_.jpg", 5);
 
 /* INSERINDO DADOS NA TABELA ENDERECO (10 INSERÇÕES) */
+
+INSERT INTO endereco
+VALUES (NULL, "Rua", "Quinze", 15, NULL, "Rio Doce", "Olinda", "PE", "53080-200", 1);
+INSERT INTO endereco
+VALUES (NULL, "Rua", "Vinte", 25, NULL, "Rio Doce", "Olinda", "PE", "54084-300", 2);
+INSERT INTO endereco
+VALUES (NULL, "Rua", "Treze", 60, NULL, "Rio Doce", "Olinda", "PE", "50080-243", 3);
+INSERT INTO endereco
+VALUES (NULL, "Rua", "Quarenta", 80, NULL, "Rio Doce", "Olinda", "PE", "32075-100", 4);
+INSERT INTO endereco
+VALUES (NULL, "Rua", "Cinquenta", 100, NULL, "Rio Doce", "Olinda", "PE", "53050-150", 5);
+INSERT INTO endereco
+VALUES (NULL, "Rua", "Vinte e Seis", 254, NULL, "Rio Doce", "Olinda", "PE", "53062-300", 6);
+INSERT INTO endereco
+VALUES (NULL, "Rua", "Cinquenta e Quatro", 75, NULL, "Rio Doce", "Olinda", "PE", "53042-120", 7);
+INSERT INTO endereco
+VALUES (NULL, "Rua", "Quarenta e Cinco", 92, NULL, "Rio Doce", "Olinda", "PE", "53144-110", 8);
+INSERT INTO endereco
+VALUES (NULL, "Rua", "Doze", 32, NULL, "Rio Doce", "Olinda", "PE", "53234-403", 9);
+INSERT INTO endereco
+VALUES (NULL, "Rua", "Dez", 42, NULL, "Rio Doce", "Olinda", "PE", "53450-313", 10);
