@@ -5,10 +5,10 @@
 
 - [x] Criar arquivo exercicio-1.sql
 - [x] Inserir clientes
-- [ ] Inserir endereços (depende de clientes)
+- [x] Inserir endereços (depende de clientes)
 - [ ] Inserir pedidos (depende de clientes)
 - [x] Inserir departamentos
-- [ ] Inserir produtos (depende de departamentos)
+- [x] Inserir produtos (depende de departamentos)
 - [ ] Inserir item_pedidos (depende de pedidos e de produtos)
 
 2. Quantos clientes estão cadastrados na sua base?
