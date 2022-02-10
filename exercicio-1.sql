@@ -109,3 +109,31 @@ INSERT INTO endereco
 VALUES (NULL, "Rua", "Doze", 32, NULL, "Rio Doce", "Olinda", "PE", "53234-403", 9);
 INSERT INTO endereco
 VALUES (NULL, "Rua", "Dez", 42, NULL, "Rio Doce", "Olinda", "PE", "53450-313", 10);
+
+/* INSERINDO DADOS NA TABELA PEDIDO (25 INSERÇÕES) */
+
+INSERT INTO pedido VALUES (null,"F","2021-01-10",55,0,40,2);
+INSERT INTO pedido VALUES (null,"F","2021-01-01",70,0,70,2);
+INSERT INTO pedido VALUES (null,"F","2021-02-10",38,0,38,3);
+INSERT INTO pedido VALUES (null,"F","2021-02-15",80,10,70,2);
+INSERT INTO pedido VALUES (null,"F","2021-03-05",19.90,0,19.90,3);
+INSERT INTO pedido VALUES (null,"F","2021-03-08",29.90,0,29.90,3);
+INSERT INTO pedido VALUES (null,"F","2021-04-10",25,0,25,3);
+INSERT INTO pedido VALUES (null,"F","2021-04-22",35,0,35,2);
+INSERT INTO pedido VALUES (null,"F","2021-05-19",70,0,70,3);
+INSERT INTO pedido VALUES (null,"F","2021-05-07",38,0,38,2);
+INSERT INTO pedido VALUES (null,"F","2021-06-01",50,0,50,3);
+INSERT INTO pedido VALUES (null,"F","2021-06-05",19.9,0,19.9,2);
+INSERT INTO pedido VALUES (null,"F","2022-07-05",29.9,0,29.9,2);
+INSERT INTO pedido VALUES (null,"F","2022-07-12",40,0,40,2);
+INSERT INTO pedido VALUES (null,"F","2021-08-05",19.90,0,19.90,2);
+INSERT INTO pedido VALUES (null,"F","2021-08-08",29.90,0,29.90,4);
+INSERT INTO pedido VALUES (null,"F","2021-09-10",25,0,25,2);
+INSERT INTO pedido VALUES (null,"F","2021-09-22",35,0,35,3);
+INSERT INTO pedido VALUES (null,"F","2021-10-19",70,0,70,3);
+INSERT INTO pedido VALUES (null,"F","2021-10-07",38,0,38,2);
+INSERT INTO pedido VALUES (null,"F","2021-11-01",50,0,50,2);
+INSERT INTO pedido VALUES (null,"F","2021-11-05",19.9,0,19.9,2);
+INSERT INTO pedido VALUES (null,"F","2022-12-05",29.9,0,29.9,4);
+INSERT INTO pedido VALUES (null,"F","2022-12-12",40,0,40,3);
+INSERT INTO pedido VALUES (null,"F","2022-12-12",40,0,40,3);
