@@ -1,6 +1,8 @@
 # Desafio em trio - SQL (ecommerce)
 
-
+<p align="center">
+  <img src="https://assets.website-files.com/5ff79f3ebebf6b12f6b7747f/5ffe04fc6284b7e90070d985_logo-gama-academy.png" width="70%">
+</p>
 
 ## Colaboradores
 
@@ -14,7 +16,13 @@ Para rodar o projeto, é necessário que o banco de dados esteja criado, caso n�
 
 `CREATE DATABASE ecommerce`
 
-Depois de criado, basta executar os scripts SQL 'criacao-bd.sql' para criar as tabelas do banco e aqueles dentro da pasta 'exercicios'.
+E para selecionar o banco:
+
+`USE ecommerce`
+
+Depois, basta executar o script SQL `criacao-bd.sql` para criar as tabelas do banco;
+
+E executar aqueles dentro da pasta `exercicios`.
 
 ## Exercícios
 1. Este exercício é livre para você inserir dados nas tabelas. Adicione vários dados em todas as tabelas. Crie vários clientes, com vários endereços. Insira muitos produtos em vários departamentos. Crie pedidos em várias datas com meses diferentes (serão necessários para os próximos exercícios).
@@ -33,7 +41,7 @@ Depois de criado, basta executar os scripts SQL 'criacao-bd.sql' para criar as t
 3. Qual o produto mais caro?
 - [x] Criar arquivo exercicio-3.sql
 
-1. Qual o produto mais barato?
+4. Qual o produto mais barato?
 - [x] Criar arquivo exercicio-4.sql
 
 5. Mostre todos os produtos com seus respectivos departamentos.
