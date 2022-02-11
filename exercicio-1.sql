@@ -1,3 +1,8 @@
+/* Exercício 1. Este exercício é livre para você inserir dados nas tabelas. 
+Adicione vários dados em todas as tabelas. Crie vários clientes, com vários endereços. 
+Insira muitos produtos em vários departamentos. Crie pedidos em várias datas com meses
+ diferentes (serão necessários para os próximos exercícios). */
+
 /* INSERINDO DADOS NA TABELA CLIENTE (10 INSERÇÕES) */
 
 INSERT INTO cliente
@@ -79,7 +84,7 @@ VALUES (NULL, "Escravidão - Volume 2", "Livro História Escravidão - Volume 2:
 INSERT INTO produto
 VALUES (NULL, "Grimório das Bruxas (Moon Edition)", "Livro História Grimório das Bruxas (Moon Edition) - Ronald Hutton lorem impsu", 49.9, 4, "https://images-na.ssl-images-amazon.com/images/I/91sXeImEBnL._AC_UL604_SR604,400_.jpg", 4);
 INSERT INTO produto
-VALUES (NULL, "Brasil, uma história", "undefined", 33.34, 12, "https://images-na.ssl-images-amazon.com/images/I/8…sticker-v7,TopRight,0,-50_AC_UL604_SR604,400_.jpg", 4);
+VALUES (NULL, "Brasil, uma história", "Livro História Brasil, uma história", 33.34, 12, "https://images-na.ssl-images-amazon.com/images/I/8…sticker-v7,TopRight,0,-50_AC_UL604_SR604,400_.jpg", 4);
 INSERT INTO produto
 VALUES (NULL, "Inteligência emocional", "Livro Ciências Inteligência emocional - Daniel Goleman lorem impsu", 39.9, 6, "https://images-na.ssl-images-amazon.com/images/I/71f9R8hY23L._AC_UL604_SR604,400_.jpg", 5);
 INSERT INTO produto
@@ -137,3 +142,63 @@ INSERT INTO pedido VALUES (null,"F","2021-11-05",19.9,0,19.9,2);
 INSERT INTO pedido VALUES (null,"F","2022-12-05",29.9,0,29.9,4);
 INSERT INTO pedido VALUES (null,"F","2022-12-12",40,0,40,3);
 INSERT INTO pedido VALUES (null,"F","2022-12-12",40,0,40,3);
+
+/* INSERINDO DADOS NA TABELA ITEM_PEDIDO (56 INSERÇÕES) */
+
+/*num_sequencial, quantidade, valor_unitario, valor_total, produto_codigo, pedido_numero*/
+INSERT INTO item_pedido VALUE (null, 1, 13.9, 13.9, 4, 1);
+INSERT INTO item_pedido VALUE (null, 1, 24, 24, 2, 1);
+INSERT INTO item_pedido VALUE (null, 1, 39.9, 39.9, 23, 1);
+INSERT INTO item_pedido VALUE (null, 2, 46, 92, 24, 2);
+INSERT INTO item_pedido VALUE (null, 1, 55.12, 55.12, 8, 2);
+INSERT INTO item_pedido VALUE (null, 1, 49.9, 49.9, 5, 3);
+INSERT INTO item_pedido VALUE (null, 1, 13.9, 13.9, 4, 3);
+INSERT INTO item_pedido VALUE (null, 1, 26.95, 26.95, 6, 3);
+INSERT INTO item_pedido VALUE (null, 1, 24, 24, 2, 4);
+INSERT INTO item_pedido VALUE (null, 1, 39.9, 39.9, 23, 4);
+INSERT INTO item_pedido VALUE (null, 2, 26.2, 52.4, 1, 5);
+INSERT INTO item_pedido VALUE (null, 1, 34.4, 34.4, 14, 5);
+INSERT INTO item_pedido VALUE (null, 1, 23.9, 23.9, 16, 5);
+INSERT INTO item_pedido VALUE (null, 1, 12.9, 12.9, 17, 6);
+INSERT INTO item_pedido VALUE (null, 1, 27.9, 27.9, 15, 6);
+INSERT INTO item_pedido VALUE (null, 2, 34.4, 68.8, 14, 6);
+INSERT INTO item_pedido VALUE (null, 1, 13.9, 13.9, 4, 7);
+INSERT INTO item_pedido VALUE (null, 1, 28.06, 28.06, 13, 7);
+INSERT INTO item_pedido VALUE (null, 1, 13, 13, 10, 7);
+INSERT INTO item_pedido VALUE (null, 1, 13.9, 13.9, 4, 8);
+INSERT INTO item_pedido VALUE (null, 2, 16.9, 33.8, 25, 8);
+INSERT INTO item_pedido VALUE (null, 1, 13.9, 13.9, 4, 9);
+INSERT INTO item_pedido VALUE (null, 1, 13.9, 13.9, 4, 9);
+INSERT INTO item_pedido VALUE (null, 1, 40.9, 40.9, 19, 10);
+INSERT INTO item_pedido VALUE (null, 4, 21, 84, 9, 10);
+INSERT INTO item_pedido VALUE (null, 1, 20.99, 20.99, 3, 10);
+INSERT INTO item_pedido VALUE (null, 1, 18.9, 18.9, 18, 11);
+INSERT INTO item_pedido VALUE (null, 1, 40.9, 40.9, 19, 11);
+INSERT INTO item_pedido VALUE (null, 1, 12.9, 12.9, 17, 12);
+INSERT INTO item_pedido VALUE (null, 3, 28.2, 84.6, 20, 12);
+INSERT INTO item_pedido VALUE (null, 1, 49.9, 49.9, 5, 13);
+INSERT INTO item_pedido VALUE (null, 1, 49.9, 49.9, 21, 13);
+INSERT INTO item_pedido VALUE (null, 1, 33.34, 33.34, 22, 14);
+INSERT INTO item_pedido VALUE (null, 4, 26.95, 107.8, 6, 14);
+INSERT INTO item_pedido VALUE (null, 1, 13.9, 13.9, 4, 15);
+INSERT INTO item_pedido VALUE (null, 1, 1.99, 1.99, 11, 15);
+INSERT INTO item_pedido VALUE (null, 1, 13.9, 13.9, 4, 16);
+INSERT INTO item_pedido VALUE (null, 5, 23.9, 23.9, 16, 16);
+INSERT INTO item_pedido VALUE (null, 1, 13.9, 13.9, 4, 17);
+INSERT INTO item_pedido VALUE (null, 1, 55.12, 55.12, 8, 17);
+INSERT INTO item_pedido VALUE (null, 1, 13.9, 13.9, 4, 18);
+INSERT INTO item_pedido VALUE (null, 1, 44.9, 44.9, 7, 18);
+INSERT INTO item_pedido VALUE (null, 6, 44.9, 268.8, 7, 19);
+INSERT INTO item_pedido VALUE (null, 1, 18.9, 18.9, 18, 19);
+INSERT INTO item_pedido VALUE (null, 1, 13.9, 13.9, 4, 20);
+INSERT INTO item_pedido VALUE (null, 1, 49.9, 49.9, 5, 20);
+INSERT INTO item_pedido VALUE (null, 1, 20.99, 20.99, 3, 21);
+INSERT INTO item_pedido VALUE (null, 1, 26.95, 26.95, 6, 21);
+INSERT INTO item_pedido VALUE (null, 2, 13.9, 27.8, 4, 22);
+INSERT INTO item_pedido VALUE (null, 1, 13.9, 13.9, 4, 22);
+INSERT INTO item_pedido VALUE (null, 1, 44.9, 44.9, 7, 23);
+INSERT INTO item_pedido VALUE (null, 1, 13, 13, 10, 23);
+INSERT INTO item_pedido VALUE (null, 1, 33.34, 33.34, 22, 24);
+INSERT INTO item_pedido VALUE (null, 1, 39.9, 39.9, 23, 24);
+INSERT INTO item_pedido VALUE (null, 2, 21, 42, 9, 25);
+INSERT INTO item_pedido VALUE (null, 1, 24, 24, 2, 25);
