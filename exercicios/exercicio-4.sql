@@ -1,6 +1,6 @@
 /* Exercício 4. Qual o produto mais barato? */
 
-SELECT nome, preco
+SELECT nome AS "Produto", preco AS "Preço"
 FROM produto
 WHERE preco = 
 (
