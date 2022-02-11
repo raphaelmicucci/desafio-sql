@@ -145,7 +145,6 @@ INSERT INTO pedido VALUES (null,"F","2022-12-12",40,0,40,3);
 
 /* INSERINDO DADOS NA TABELA ITEM_PEDIDO (56 INSERÇÕES) */
 
-/*num_sequencial, quantidade, valor_unitario, valor_total, produto_codigo, pedido_numero*/
 INSERT INTO item_pedido VALUE (null, 1, 13.9, 13.9, 4, 1);
 INSERT INTO item_pedido VALUE (null, 1, 24, 24, 2, 1);
 INSERT INTO item_pedido VALUE (null, 1, 39.9, 39.9, 23, 1);
