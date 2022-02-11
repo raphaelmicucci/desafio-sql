@@ -10,7 +10,11 @@
 
 ## Rodando o projeto
 
+Para rodar o projeto, é necessário que o banco de dados esteja criado, caso não esteja, execute o seguinte comando:
 
+`CREATE DATABASE ecommerce`
+
+Depois de criado, basta executar os scripts SQL 'criacao-bd.sql' para criar as tabelas do banco e aqueles dentro da pasta 'exercicios'.
 
 ## Exercícios
 1. Este exercício é livre para você inserir dados nas tabelas. Adicione vários dados em todas as tabelas. Crie vários clientes, com vários endereços. Insira muitos produtos em vários departamentos. Crie pedidos em várias datas com meses diferentes (serão necessários para os próximos exercícios).
